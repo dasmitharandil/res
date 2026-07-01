@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
+}
+
+:root {
+  --bg-page: #0A0A0A;
+  --bg-card: #141412;
+  --card-border: rgba(255,255,255,0.08);
+  --text-primary: #F6F3EC;
+  --text-secondary: #9C9A94;
+  --text-muted: #6E6C67;
+  --accent-color: #3B82F6;
+  --btn-bg: #F6F3EC;
+  --btn-text: #0A0A0A;
+  --divider: rgba(255,255,255,0.14);
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.35, 1.55, 0.65, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 220ms;
+  --duration-slow: 320ms;
+}
